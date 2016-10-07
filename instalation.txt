@@ -25,7 +25,7 @@ The key's randomart image is:
 | o .             |
 |                 |
 +----[SHA256]-----+
-//hash generacja
+//hash generacja  
 ls -al ~/.ssh
 eval "$(ssh-agent -s)"
 ssh-keygen -t rsa -b 4096 -C "mariusz.tripler@gmail.com"
