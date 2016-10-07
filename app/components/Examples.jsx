@@ -13,7 +13,7 @@ var React = require("react");
 //stateless method
 var Examples = (props) =>  {
 	 return (
-            <h3>Examples Compnent</h3>
+            <h3>Examples Compnent!</h3>
             )
 };
 module.exports = Examples;
