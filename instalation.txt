@@ -4,3 +4,8 @@
 2  npm install --save react@0.14.7 react-dom@0.14.7
 3 
  npm install --save-dev webpack@1.12.13 babel-core@6.5.1 babel-loader@6.2.2 babel-preset-es2015@6.5.0 babel-preset-react@6.5.0
+
+
+ Due to a library bug there is a small issue in the next video. In the next lecture you'll learn how to setup source maps by setting a "devtool" property in webpack.config.js. In the lecture I set the value to "cheap-module-eval-source-map". This might cause the source maps to not work as shown in the video.
+
+If you are getting this error, try setting the value to either "inline-source-map" or "eval-source-map" instead.
